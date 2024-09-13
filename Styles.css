@@ -1,0 +1,103 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Container e Layout */
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction:
+}
+
+.tab-content {
+    display: none; 
+}
+
+.tab-content:first-of-type {
+    display: block; 
+}
+
+/* Estilo para imagens na seção Home */
+.home-image {
+    max-width: 50%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin: 10px 0; /
+}
+
+/* Estilo para imagens de campeões */
+.champion-image {
+    max-width: 60%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin: 10px 0; 
+}
+
+/* Estilo para imagens de itens */
+.item-image {
+    max-width: 200px; 
+    height: 50%; 
+    margin: 15px 0; /
+    border-radius: 10%;
+}
+
+/* Estilo para imagens de estratégias */
+.strategy-image {
+    max-width: 150px; 
+    height: auto; 
+    margin: 10px 0; 
+    border-radius: 10%;
+}
